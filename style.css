@@ -66,10 +66,10 @@ ul li a:hover{
 .search{
     width: 330px;
     float: left;
-    margin: left: 270px;
+    margin-left: 270px;
 }
 
-.src{
+.srch{
     font-family: 'Times New Roman';
     width: 200px;
     height: 40px;
@@ -140,14 +140,17 @@ ul li a:hover{
     transition: .4s ease;
 }
 
-.content .cn{
+.content .cn a {
     text-decoration: none;
     color: black;
+    display: block;
+    line-height: 50px;
     transition: .3s ease;
 }
 
 .cn:hover{
-    background-colour: blue;
+    background-color: blue;
+    color: white;
 }
 
 .form{
